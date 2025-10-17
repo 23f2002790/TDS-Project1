@@ -10,12 +10,13 @@ load_dotenv()
 
 # Configuration
 API_URL = "http://localhost:8000/api-endpoint"
-SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-here")
+SECRET_KEY = os.getenv("SECRET_KEY", "Phlo9ywRxhjayA4qY0b139Z0aZJ5co7O") # Default for testing
 
 # Sample payload
 # NOTE: Get your personal webhook URL from https://webhook.site/
 # Just visit the site and copy the unique URL shown
-WEBHOOK_URL = "https://webhook.site/your-unique-id-here"
+# WEBHOOK_URL = "https://webhook.site/f1c17b1c-a336-4c22-b788-311ff42762fa"
+WEBHOOK_URL = "https://tds-project1.free.beeceptor.com"
 
 payload = {
     "email": "test@example.com",
