@@ -20,7 +20,7 @@ This service receives assignment requests via webhook, uses an LLM to generate a
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone [<your-repo-url>](https://github.com/23f2002790/TDS-Project1)
 cd autoapp
 ```
 
