@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration
-API_URL = "http://localhost:8000/api-endpoint"
+API_URL = "https://tds-project1-tawny.vercel.app/api-endpoint"
 SECRET_KEY = os.getenv("SECRET_KEY", "Phlo9ywRxhjayA4qY0b139Z0aZJ5co7O") # Default for testing
 
 # Sample payload
