@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langchain
+langchain-openai
+langchain-anthropic
+openai
+anthropic
+pygithub
+python-dotenv
+httpx
+pydantic
+requests
+github"GitPython" 
